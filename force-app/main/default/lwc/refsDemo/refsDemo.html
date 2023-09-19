@@ -6,12 +6,15 @@
 <template>
     <lightning-card  title="Refs Demo">
         <div class="slds-p-around_medium">
-            <lightning-input label="Name"></lightning-input>
-            <lightning-input label="Age"></lightning-input>
+            <lightning-input label="Name" lwc:ref="name"></lightning-input>
+            <lightning-input label="Age" lwc:ref="age"></lightning-input>
             <lightning-button label="Submit"
                               class="slds-var-m-top_medium"
                               onclick={handleSubmit}>
             </lightning-button>
+        </div>
+        <div lwc:ref="response_ref">
+
         </div>
     </lightning-card>
 </template>
