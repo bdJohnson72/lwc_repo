@@ -1,0 +1,11 @@
+/**
+ * Created by bjohnson on 9/19/23.
+ */
+
+public with sharing class RefreshController {
+
+    @AuraEnabled
+    public static List<Account> getAccountRating(Id accountId){
+        return [SELECT Id, Rating FROM Account WHERE Id =: accountId];
+    }
+}
