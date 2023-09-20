@@ -3,17 +3,23 @@
  */
 
 import refreshController from '@salesforce/apex/RefreshController.getAccountRating'
-import {registerRefreshHandler} from "lightning/refresh";
+import {registerRefreshHandler, unregisterRefreshHandler} from "lightning/refresh";
 
 import {LightningElement, api} from 'lwc';
 
 export default class RefreshCustomView extends LightningElement {
     @api recordId
     rating
+    refreshId;
     connectedCallback() {
-        registerRefreshHandler(this, this.refreshHandler) //context element, provider method
+        this.refreshId = registerRefreshHandler(this, this.refreshHandler) //context element, provider method
        this.fetchRating()
     }
+
+    disconnectedCallback() {
+       unregisterRefreshHandler(this.refreshId)
+    }
+
     async fetchRating(){
         try {
           let account = await refreshController({"accountId": this.recordId})
