@@ -11,7 +11,9 @@
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>LWC_Examples</label>
     <navType>Standard</navType>
-    <tabs>Spring_23</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>LWC_Seasonal_Updates_1</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LWC_Examples_UtilityBar</utilityBar>
 </CustomApplication>

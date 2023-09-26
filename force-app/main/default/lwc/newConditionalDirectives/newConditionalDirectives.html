@@ -1,0 +1,29 @@
+<!--
+ - Created by bjohnson on 9/24/23.
+ -->
+
+<!-- New Conditional Directives -->
+<template>
+    <lightning-card title="New Conditional Directives">
+        <div class="slds-var-p-around_medium">
+          <!--  <template if:true={showText}>
+                show text
+            </template>
+            <template if:false={showText}>
+                ********
+            </template>-->
+            <template lwc:if={showText}>
+                Show Text
+            </template>
+            <template lwc:else>
+                *******
+            </template>
+            <div>
+                <lightning-button label={getLabel}
+                                  onclick={showTextHandler}>
+                </lightning-button>
+            </div>
+
+        </div>
+    </lightning-card>
+</template>
