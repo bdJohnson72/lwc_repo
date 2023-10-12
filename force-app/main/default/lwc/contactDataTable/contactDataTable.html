@@ -1,0 +1,14 @@
+<!--
+ - Created by bjohnson on 9/27/23.
+ -->
+
+<!-- Contact Data Table -->
+<template>
+    <template lwc:if={contacts}>
+        <lightning-datatable key-field="id"
+                             data={contacts}
+                             columns={columns}>
+        </lightning-datatable>
+    </template>
+
+</template>

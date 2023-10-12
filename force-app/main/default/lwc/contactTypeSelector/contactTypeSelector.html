@@ -1,0 +1,22 @@
+<!--
+ - Created by bjohnson on 10/10/23.
+ -->
+
+<!-- Contact Type Selector -->
+<template>
+    <lightning-combobox label="Display Type"
+                        name="display_type"
+                        value={value}
+                        placeholder="Select Display Type"
+                        options={options}
+                        onchange={handleChange}>
+    </lightning-combobox>
+    <p>Selected Value is: {display}</p>
+    <template lwc:if={showTiles}>
+        <c-contact-tiles ></c-contact-tiles>
+    </template>
+    <template lwc:else>
+        <c-contact-data-table ></c-contact-data-table>
+    </template>
+
+</template>

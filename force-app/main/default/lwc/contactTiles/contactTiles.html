@@ -1,0 +1,25 @@
+<!--
+ - Created by bjohnson on 9/27/23.
+ -->
+
+<!-- Contact Tiles -->
+<template>
+    <template lwc:if={contacts}>
+        <lightning-layout  multiple-rows="true">
+            <template for:each={contacts} for:item="contact">
+                    <lightning-layout-item key={contact.Id} size='4'>
+                        <lightning-card label="info" icon-name="standard:contact">
+                            <div class=slds-var-m-around_small>
+                                <p>First Name: {contact.FirstName}</p>
+                                <p>Last Name: {contact.LastName}</p>
+                                <p>Phone: {contact.Phone}</p>
+                                <p>Email: {contact.Email}</p>
+                            </div>
+
+                        </lightning-card>
+                    </lightning-layout-item>
+            </template>
+        </lightning-layout>
+
+    </template>
+</template>

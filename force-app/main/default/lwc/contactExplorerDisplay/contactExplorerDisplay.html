@@ -1,0 +1,17 @@
+<!--
+ - Created by bjohnson on 9/27/23.
+ -->
+
+<!-- Contact Explorer Display -->
+<template>
+    <lightning-combobox label="Display Type"
+                        name="display_type"
+                        value={value}
+                        placeholder="Select Display Type"
+                        options={options}
+                        onchange={handleChange}>
+    </lightning-combobox>
+    <p>Selected Value is: dynamic {value}</p>
+    <lwc:component lwc:is={comp_constructor} lwc:spread={childProps}></lwc:component>
+
+</template>
