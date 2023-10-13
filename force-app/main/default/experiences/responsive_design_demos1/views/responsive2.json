@@ -1,0 +1,60 @@
+{
+  "appPageId" : "419f3574-5bb0-4404-9027-11b19eab8f5a",
+  "componentName" : "community_layout:sldsFlexibleLayout",
+  "dataProviders" : [ ],
+  "id" : "5c13b34b-1746-4678-931d-e9b34267a76a",
+  "label" : "responsive2",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "backgroundImageConfig" : "",
+        "backgroundImageOverlay" : "rgba(0,0,0,0)",
+        "sectionConfig" : "{\"UUID\":\"90e5b84b-44f7-4fb7-a12b-e1171cd794c6\",\"columns\":[{\"UUID\":\"3bc06b90-8314-4cf4-b525-5ecab82bc7e1\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "90e5b84b-44f7-4fb7-a12b-e1171cd794c6",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : { },
+          "componentName" : "c:flexPageContainter",
+          "id" : "1a0b7104-9737-4aa1-b5f2-181e1da7f196",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "3bc06b90-8314-4cf4-b525-5ecab82bc7e1",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    } ],
+    "id" : "01687edb-6450-4d39-a2aa-7ad2a6f2c81e",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "pageTitle" : "responsive2",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "community_builder:seoAssistant",
+      "id" : "4921e649-6537-49ad-9eb5-4ac9325b3056",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "196585ca-06e7-4e49-ac03-f821f3cb344e",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-responsive2"
+}

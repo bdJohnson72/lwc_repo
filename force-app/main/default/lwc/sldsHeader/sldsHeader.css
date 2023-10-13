@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Monsterrat';
+    src: url("/sfsites/c/resource/monterserrat") format('truetype');
+
+
+}
+
+li{
+    font-family: 'Monsterrat sans-serif';
+    font-weight: 800;
+    text-transform: uppercase;
+    border: 1px solid #000;
+}
+
+.test{
+    font-family: 'Monsterrat sans-serif';
+    font-size: 2rem;
+}

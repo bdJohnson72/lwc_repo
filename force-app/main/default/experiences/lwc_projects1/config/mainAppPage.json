@@ -1,0 +1,12 @@
+{
+  "cmsSettings" : { },
+  "currentThemeId" : "5ba30dda-4f89-400d-85ca-8fc7aac48d77",
+  "favIconAssetRef" : null,
+  "headMarkup" : "<meta charset=\"UTF-8\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n<title>Brooks Johnson LWC Stuff</title>\n\n<link rel=\"stylesheet\" href=\"{ basePath }/assets/styles/styles.css?{ versionKey }\" />\n\n\n<!-- webruntime-branding-shared stylesheets -->\n<link rel=\"stylesheet\" href=\"{ basePath }/assets/styles/salesforce-lightning-design-system.min.css?{ versionKey }\" />\n\n\n<!-- webruntime-branding-shared stylesheets -->\n\n<style> \n.interactions-component.webruntimedesign-componentWrapper_componentWrapper {\n    min-height: 0px !important;\n}\n</style>",
+  "id" : "49e65df8-67f3-44ef-8de9-2202b7bba655",
+  "isLockerServiceEnabled" : true,
+  "isRelaxedCSPLevel" : false,
+  "label" : "main",
+  "templateName" : "talon-template-byo",
+  "type" : "appPage"
+}

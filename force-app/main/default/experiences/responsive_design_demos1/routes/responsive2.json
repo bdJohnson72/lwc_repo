@@ -1,0 +1,10 @@
+{
+  "activeViewId" : "5c13b34b-1746-4678-931d-e9b34267a76a",
+  "appPageId" : "419f3574-5bb0-4404-9027-11b19eab8f5a",
+  "configurationTags" : [ ],
+  "id" : "0be0bd71-cf88-4cfc-b235-1ee021c07397",
+  "label" : "responsive2",
+  "routeType" : "custom-responsive2",
+  "type" : "route",
+  "urlPrefix" : "responsive2"
+}

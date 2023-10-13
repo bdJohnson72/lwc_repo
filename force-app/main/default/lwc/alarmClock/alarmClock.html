@@ -1,0 +1,44 @@
+<!--
+ - Created by bjohnson on 5/5/23.
+ -->
+
+<!-- Alarm Clock -->
+<template>
+    <div class="alarm-card">
+        <h1>Alarm Clock</h1>
+        <img src={clockImage} alt='clock image' height='200px' width='200px' class={shakeAlarm}>
+        <h2>{currentTime}</h2>
+        <div class='slds-grid slds-gutters'>
+            <div class='slds-col'>
+                <c-drop-down label='Hour' id='select-hour' options={hours}
+                             onchangeselect={changeOptionHandler}></c-drop-down>
+            </div>
+            <div class='slds-col'>
+                <c-drop-down label='Minute' id='select-minute' options={minutes}
+                             onchangeselect={changeOptionHandler}>
+                </c-drop-down>
+            </div>
+            <div class='slds-col'>
+                <c-drop-down label='AM/PM' id='select-am-pm' options={meridiem}
+                             onchangeselect={changeOptionHandler}></c-drop-down>
+            </div>
+        </div>
+
+        <template lwc:if={isAlarmSet}>
+            <button class='slds-button slds-button_stretch slds-button_neutral'
+                    disabled={buttonDisabled}
+                    onclick={clearAlarm}>
+                Clear Alarm
+            </button>
+        </template>
+        <template lwc:else>
+            <button class='slds-button slds-button_stretch slds-button_neutral'
+                    disabled={buttonDisabled}
+                    onclick={setAlarm}
+            >Set Alarm
+            </button>
+        </template>
+
+
+    </div>
+</template>

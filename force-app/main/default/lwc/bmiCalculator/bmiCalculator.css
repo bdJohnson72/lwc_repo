@@ -1,0 +1,70 @@
+/**
+ * Created by bjohnson on 5/5/23.
+ */
+
+:host {
+    --dark-blue: #0B0d21;
+    --light-white: #fafafa;
+    --light-blue: #4f7df9;
+    --light-pink: #e91e63;
+    --dull-blue: #1d1e33;
+    --size-16: 1rem;
+    --size-14: .90rem;
+    --size-12: .75rem;
+}
+
+.bmiApp {
+    padding: var(--size-16);
+    min-height: 100vh;
+    background-image: url(/sfsites/c/resource/bmiAppBackground);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box {
+    margin: auto;
+    text-align: center;
+    max-width: 420px;
+    padding: var(--size-16);
+    background: var(--dark-blue);
+    color: var(--light-white);
+    border-radius: 20px;
+}
+
+h1{
+    font-size: 3rem;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.info-wrapper {
+    background: var(--dull-blue);
+    padding: var(--size-16);
+    font-size: 14px;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+h2{
+    font-size: 26px;
+    font-color: red;
+}
+.submit-button {
+    background: var(--light-pink);
+    font-size: var(--size-16);
+    padding: var(--size-12);
+    border-color: var(--light-pink);
+    color: var(--light-white);
+}
+
+label{
+    font-size: 20px;
+    color: white;
+}
+
+input{
+    color: black;
+    padding: 8px;
+    font-size: var(--size-16);
+}

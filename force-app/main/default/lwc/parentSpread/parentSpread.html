@@ -1,0 +1,18 @@
+<!--
+ - Created by bjohnson on 7/18/23.
+ -->
+
+<!-- Parent Spread -->
+<template>
+    <lightning-card title="Parent Spread" icon-name="custom:custom14">
+        <div class="slds-m-around_medium">
+            <lightning-input type='number'
+                             label='Enter a value'
+                             value={percentage}
+                             oninput={handleChange}
+                             onchange={handleChange}></lightning-input>
+            </br>
+            <c-child-spread lwc:spread={data}></c-child-spread>
+        </div>
+    </lightning-card>
+</template>

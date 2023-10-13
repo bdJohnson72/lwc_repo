@@ -1,0 +1,52 @@
+{
+  "appPageId" : "49e65df8-67f3-44ef-8de9-2202b7bba655",
+  "componentName" : "community_layout:sldsFlexibleLayout",
+  "dataProviders" : [ ],
+  "id" : "7311c06b-deed-41aa-8733-aa33b573f91f",
+  "label" : "Home",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "backgroundImageConfig" : "",
+        "backgroundImageOverlay" : "rgba(0,0,0,0)",
+        "sectionConfig" : "{\"UUID\":\"9409495f-0a5e-409c-8c20-9c4ec456f6bc\",\"columns\":[{\"UUID\":\"db1f2d2d-c00a-45a6-923f-c3cd8f0f98c9\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "9409495f-0a5e-409c-8c20-9c4ec456f6bc",
+      "regions" : [ {
+        "id" : "db1f2d2d-c00a-45a6-923f-c3cd8f0f98c9",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    } ],
+    "id" : "d419e65b-5386-4ee2-a71f-742284e80ac4",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "pageTitle" : "Home",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "community_builder:seoAssistant",
+      "id" : "e6b1b5df-19e2-41af-bbac-b812536a3ee6",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b8e0936c-5846-4667-b088-a0cc66448ecf",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "home"
+}

@@ -1,0 +1,20 @@
+<!--
+ - Created by bjohnson on 7/15/23.
+ -->
+
+<!-- Drop Down -->
+<template>
+    <div class="slds-form-element">
+        <label class="slds-form-element__label" for="select-hour">{label}</label>
+        <div class="slds-form-element__control">
+            <div class="slds-select_container">
+                <select class="slds-select select-color" id={id} onchange={changeHandler}>
+                    <option value="">Select…</option>
+                    <template for:each={options} for:item='option'>
+                        <option key={option} value={option}>{option}</option>
+                    </template>
+                </select>
+            </div>
+        </div>
+    </div>
+</template>

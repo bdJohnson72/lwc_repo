@@ -1,0 +1,12 @@
+/**
+ * Created by bjohnson on 7/15/23.
+ */
+label {
+    font-size: 24px;
+    font-weight: 500;
+    color: lightblue;
+}
+
+.select-color{
+    color: darkblue;
+}

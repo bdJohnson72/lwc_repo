@@ -1,0 +1,14 @@
+/**
+ * Created by bjohnson on 7/28/23.
+ */
+.sidebar{
+    background-color: lightblue;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    padding: .8rem;
+}
+
+.sidebar h2{
+    font-size: 2rem;
+    text-align: center;
+}

@@ -1,0 +1,35 @@
+/**
+ * Created by bjohnson on 7/19/23.
+
+ */
+
+:host{
+    --dark-blue: #0b2451;
+    --gold: #f9ba49;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+.card-body {
+    max-width: 520px;
+    background:  var(--dark-blue);
+    border-radius: 25px;
+    padding: 1rem;
+
+}
+
+.button-convert,
+.button-convert:hover,
+.button-convert:active{
+    background: var(--gold);
+    color: var(--dark-blue);
+    padding: .8rem;
+    font-size: 1.5rem;
+    margin-top: .8rem;
+}

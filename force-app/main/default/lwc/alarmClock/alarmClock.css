@@ -1,0 +1,70 @@
+/**
+ * Created by bjohnson on 5/5/23.
+
+
+ */
+:host {
+    --basic-yellow: #d6d638;
+}
+.alarm-card{
+    max-width: 400px;
+    width: 40%;
+    padding: 30px;
+    background: #243356;
+    color: #fff;
+    border-radius: 16px;
+    margin: 24px auto;
+}
+
+h1 {
+    font-weight: bold;
+    color: var(--basic-yellow);
+    text-align: center;
+    font-size: 34px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 500;
+    margin: 10px 0 auto;
+    color: lightblue;
+}
+
+button {
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 400;
+    color: darkblue;
+    background: var(--basic-yellow);
+    margin: 16px 0 0 0;
+}
+
+img {
+    margin: 20px auto;
+    display: block;
+
+}
+
+label {
+    font-size: 24px;
+    font-weight: 500;
+    color: lightblue;
+}
+
+.select-color{
+    color: darkblue;
+}
+
+img.shake {
+    animation: horizontal-shaking 0.5s ease-in-out infinite;
+}
+
+@keyframes horizontal-shaking {
+    0% { transform: translateX(0) }
+    25% { transform: translateX(5px) }
+    50% { transform: translateX(-5px) }
+    75% { transform: translateX(5px) }
+    100% { transform: translateX(0) }
+}

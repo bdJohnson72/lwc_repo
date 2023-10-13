@@ -1,0 +1,56 @@
+<!--
+ - Created by bjohnson on 7/17/23.
+ -->
+
+<!-- Currency Converter -->
+<template>
+ <div class="currency-app">
+     <div class="container">
+         <div class="slds-card card-body">
+             <form>
+                 <h2 class='slds-text-heading_large slds-text-color_inverse
+                 slds-text-align_center'
+			>Currency Converter</h2>
+             <lightning-input type="number"
+                              name="input1"
+                              placeholder="Enter Amount"
+                              variant="label-hidden"
+                              required
+                              class="slds-m-around_x-large"
+                              label="Amount">
+             </lightning-input>
+                 <div class="slds-grid">
+                     <div class="slds-col">
+                         <lightning-combobox
+                                 name="Country From"
+                                 label="Country From"
+                                 value={countryFrom}
+                                 variant="label-hidden"
+                                 placeholder="Currency"
+                                 options={countryCodeList}
+                                 onchange={handleChange} ></lightning-combobox>
+                     </div>
+                     <div class="slds-col">
+                         <lightning-icon icon-name='action:change_record_type'
+                                         alternative-text='change_record_type'
+                                         size='large' title='change_record_type'>
+                         </lightning-icon>
+                     </div>
+                     <div class="slds-col">
+                         <lightning-combobox
+                                 name="Country  To"
+                                 label="Country To"
+                                 value={countryTo}
+                                 variant="label-hidden"
+                                 placeholder="Currency"
+                                 options={countryCodeList}
+                                 onchange={handleChange} ></lightning-combobox>
+                     </div>
+
+                 </div>
+                 <button class="slds-button slds-button_stretch  button-convert">Convert</button>
+             </form>
+         </div>
+     </div>
+ </div>
+</template>

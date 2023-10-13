@@ -1,0 +1,17 @@
+/**
+ * Created by brooks.johnson on 7/5/2022.
+ */
+
+import {LightningElement, api} from 'lwc';
+
+export default class Button extends LightningElement {
+
+    @api label;
+    @api icon;
+    handleButton(event) {
+        this.dispatchEvent(new CustomEvent('buttonclick',{
+            bubbles: true
+        }));
+    }
+
+}

@@ -1,0 +1,12 @@
+{
+  "cmsSettings" : { },
+  "currentThemeId" : "195e0896-ed85-4ddc-aa1d-4b40326f6c36",
+  "favIconAssetRef" : null,
+  "headMarkup" : "<meta charset=\"UTF-8\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n<title>Responsive LayOut Demos</title>\n\n<link rel=\"stylesheet\" href=\"{ basePath }/assets/styles/styles.css?{ versionKey }\" />\n\n\n<!-- webruntime-branding-shared stylesheets -->\n<link rel=\"stylesheet\" href=\"{ basePath }/assets/styles/salesforce-lightning-design-system.min.css?{ versionKey }\" />\n<link rel=\"stylesheet\" href=\"{ basePath }/assets/styles/dxp-site-spacing-styling-hooks.min.css?{ versionKey }\" />\n<link rel=\"stylesheet\" href=\"{ basePath }/assets/styles/dxp-styling-hooks.min.css?{ versionKey }\" />\n<link rel=\"stylesheet\" href=\"{ basePath }/assets/styles/dxp-slds-extensions.min.css?{ versionKey }\" />\n\n\n<!-- webruntime-branding-shared stylesheets -->\n\n<style>\n    \n    @font-face {\n    font-family: 'Monsterrat';\n        src: url(\"{ basePath }/sfsites/c/resource/montserrat\") format('truetype');\n}\n    .interactions-component.webruntimedesign-componentWrapper_componentWrapper {\n     min-height: 0px; !important\n}\n    \n    :root {\n      /** set the font for all root/body text **/\n      --dxp-g-root-font-family: 'Monsterrat', Helvetica, sans-serif;\n      \n      /** set the font for headings **/\n      --dxp-g-heading-font-family: 'Monsterrat', Times, serif;\n   }\n</style>",
+  "id" : "419f3574-5bb0-4404-9027-11b19eab8f5a",
+  "isLockerServiceEnabled" : true,
+  "isRelaxedCSPLevel" : false,
+  "label" : "main",
+  "templateName" : "talon-template-byo",
+  "type" : "appPage"
+}

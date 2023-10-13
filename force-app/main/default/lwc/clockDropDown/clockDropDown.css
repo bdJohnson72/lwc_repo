@@ -1,0 +1,16 @@
+/**
+ * Created by bjohnson on 5/8/23.
+ */
+
+label {
+    color: lightblue;
+    font-size: 17px;
+}
+
+option {
+    color: black;
+}
+
+select {
+    color: black;
+}
